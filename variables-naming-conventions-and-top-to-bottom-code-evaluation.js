@@ -24,9 +24,20 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
 
-console.log(d);
+//let a = "Alice";
+//let b = 5;
+//let c = 20;
+//let d = a + " bought " + b + " items for $" + c + ".";
+
+//console.log(d);
+
+let customerName = "Alice";
+let numberOfItems = 5;
+let totalAmount = 20;
+let storeName = "SuperMart";
+
+let purchaseMessage = customerName + " bought " + numberOfItems + " items from " + storeName + " for a total of $" + totalAmount + ".";
+
+console.log(purchaseMessage);
+
